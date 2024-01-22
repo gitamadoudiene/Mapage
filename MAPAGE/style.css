@@ -1,0 +1,119 @@
+ @import url("http://127.0.0.1:5500/image-jpg.jpg");
+
+/* Importation de la police depuis Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=YourChosenFont&display=swap");
+
+/* Utilisation de la police importée */
+* {
+    font-family: 'YourChosenFont', serif;
+}
+
+/* Correction des propriétés manquantes ou incorrectes */
+a {
+    text-decoration: navajowhite;
+    color: hotpink;
+}
+
+body {
+    color: hotpink;
+    background-color: dimgrey;
+    background-image: linear-gradient(45deg, #efefef 25%, rgba(239, 239, 239, 0) 25%, rgba(239, 239, 239, 0) 75%, #efefef 75%, #efefef),
+                      linear-gradient(45deg, #efefef 25%, rgba(239, 239, 239, 0) 25%, rgba(239, 239, 239, 0) 75%, #efefef 75%, #efefef);
+    background-position: 0 0, 10px 10px;
+    background-size: 21px 21px;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.glass-container {
+    display: block;
+    max-width: 72vw;
+    margin-top: 10vh;
+    margin-bottom: 30px;
+    background: rgba(0, 0, 0, 0.56);
+    padding: 50px;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.6px);
+    -webkit-backdrop-filter: blur(11.6px);
+}
+
+/* ... Reste de votre CSS ... */
+
+
+
+.logo{
+    display: inline-block;
+     font-size: 30px;
+     font-weight: 600;
+     margin-top: -10px;
+    
+}
+
+.ul.nav-links{
+    margin: 0px;
+    float: right;
+    display: flex;
+    list-style: none;
+    
+}
+
+.li.nav-link{
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+    
+.container{
+    display: flex;
+    width: 100%;
+}
+
+.main{
+    margin-top: 10vh;
+    display: inline-block;
+    padding: 20px;
+
+}
+.main h2{
+    font-size: 35px;
+    
+}
+
+.main p{
+    font-size: 16px;
+    line-height: 23px;
+
+}
+
+
+button{
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+button:hover{
+    border-color: #2668db;
+    background-color: #2668db;
+    
+}
+
+.image-wrapper img{
+    max-width: 400px;
+    
+}
